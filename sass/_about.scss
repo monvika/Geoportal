@@ -1,0 +1,58 @@
+.about {
+  margin-top: 35px;
+  margin-bottom: 52px;
+
+  @media (min-width: 992px) {
+    margin-top: 133px;
+    margin-bottom: 134.23px;
+  }
+
+  .accent {
+    color: $accent;
+  }
+
+  .text {
+    margin-top: 53.24px;
+  }
+
+
+  .contrast {
+    color: $font-black;
+  }
+
+  .project {
+    padding: 0;
+
+    &-accent {
+      background-color: $accent !important;
+      color: $main-color !important;
+    }
+
+    .inner {
+      background-color: $small-title;
+      margin: 15px;
+      height: 225px;
+      flex-basis: 225px;
+
+      @media (min-width: 1200px) {
+        height: 270px;
+        flex-basis: 270px;
+      }
+    }
+
+    &-name {
+      width: 91.06px;
+      text-align: center;
+
+      >span {
+        font-size: 55px;
+      }
+
+      p {
+        font-size: 14px;
+        position: relative;
+        top: -11px;
+      }
+    }
+  }
+}

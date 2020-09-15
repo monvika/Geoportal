@@ -1,0 +1,82 @@
+.company {
+  margin-top: 33px;
+  margin-bottom: 67px;
+
+  @media (min-width: 992px) {
+    margin-top: 66px;
+    margin-bottom: 134px;
+  }
+
+  .background {
+    background-image: url(../images/Lorem.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 96px;
+  }
+
+  .button-light {
+    width: 100%;
+    height: 60px;
+    color: $font-black;
+    font-size: 16px;
+    line-height: 46px;
+    font-weight: 400;
+    margin-top: 30px;
+    background-color: $main-color;
+
+    @media (min-width: 576px) {
+      margin-top: 66px;
+      width: 185px;
+    }
+
+    @media (min-width: 768px) {
+      width: 225.47px;
+    }
+
+    &:hover,
+    &.active {
+      background-color: #0a83db;
+      color: #fff;
+      opacity: 1;
+    }
+  }
+
+  h3 {
+    line-height: 69.39px;
+    color: $main-color;
+    margin-bottom: 51px;
+    margin-top: 51px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .text-margin {
+    margin-top: 50px;
+
+    @media (min-width: 768px) {
+      margin-top: 0px;
+    }
+  }
+
+  .nav-tabs {
+    border: none;
+
+    li {
+      flex-basis: 100%;
+      justify-content: center;
+      display: flex;
+      padding: 0 15px;
+
+      @media (min-width: 576px) {
+        flex-basis: 50%;
+        padding: 0;
+      }
+
+      @media (min-width: 768px) {
+        flex-basis: 50%;
+      }
+    }
+  }
+}
